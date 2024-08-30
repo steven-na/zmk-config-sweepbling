@@ -12,11 +12,10 @@
 #define WHRML(k2,k3,k4) &ht LALT k2  &ht LGUI k3  &ht LCTRL k4
 #define WHRMR(k1,k2,k3) &ht RCTRL k1  &ht RGUI k2  &ht RALT k3
 
-#define MAC 0
-#define WIN 1
-#define RIG 2
-#define LEF 3
-#define TRI 4
+#define WIN 0
+#define RIG 1
+#define LEF 2
+#define TRI 3
 
 / {
     behaviors {

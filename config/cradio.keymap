@@ -83,7 +83,7 @@
             &trans   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp GRAVE   &kp TILDE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  !       │  [       │  {       │  (       │  "       │   │   /      │  -       │  =       │     :    │  ;       │
-            &kp EXCL  &kp LBKT   &kp LBRC   &kp LPAR      &kp DQ         &kp FSLH   &kp MINUS  &kp EQUAL  &kp COLON   &kp SEMI
+            &kp EXCL  &kp LBKT   &kp LBRC   &kp LPAR      &kp DQT     &kp FSLH   &kp MINUS  &kp EQUAL  &kp COLON &kp SEMICOLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  '       │  ]       │  }       │  )       │          │   │    \     │  _       │  +       │  │       │   ?      │
             &kp SQT     &kp RBKT   &kp RBRC   &kp RPAR   &trans         &kp BSLH   &kp UNDER  &kp PLUS   &kp PIPE  &kp QMARK

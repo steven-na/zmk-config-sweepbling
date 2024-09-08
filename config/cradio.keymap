@@ -48,7 +48,7 @@
             &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp L      &kp U      &kp Y      &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A (WIN) │  R (SHFT)│  S (ALT) │  T (CTRL)│  G       │   │  M       │  N (CTRL)│  E (ALT) │  I (SHFT)|  O (WIN) │
-        WHRML(A          R,         S,         T)     &kp G          &kp M      WHRMR(N,        E,         I,        O)
+        WHRML(A,         R,         S,         T)     &kp G          &kp M      WHRMR(N,        E,         I,        O)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │ , <      │ . >      │ /        │
             &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH

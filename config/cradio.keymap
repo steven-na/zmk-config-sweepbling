@@ -9,8 +9,8 @@
 // Home row mods macro
 #define HRML(k2,k3,k4) &ht LALT k2  &ht LCTRL k3  &ht LGUI k4
 #define HRMR(k1,k2,k3) &ht RGUI k1  &ht RCTRL k2  &ht RALT k3
-#define WHRML(k2,k3,k4,k5) &ht LGUI k2  &ht LSHFT k3  &ht LALT k4  &ht LCTRL k5
-#define WHRMR(k1,k2,k3,k4) &ht RCTRL k1  &ht RALT k2  &ht RSHFT k3  &ht RGUI k4
+#define WHRML(k2,k3,k4,k5) &ht LSHFT k2  &ht LALT k3  &ht LCTRL k4 &ht LGUI k5
+#define WHRMR(k1,k2,k3,k4) &ht RGUI k1 &ht RCTRL k2  &ht RALT k3  &ht RSHFT k4
 
 #define WIN 0
 #define RIG 1
@@ -48,7 +48,7 @@
             &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp L      &kp U      &kp Y      &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  A (WIN) │  R (SHFT)│  S (ALT) │  T (CTRL)│  G       │   │  M       │  N (CTRL)│  E (ALT) │  I (SHFT)|  O (WIN) │
-        WHRML(A,         R,         S,         T)     &kp G          &kp M      WHRMR(N,        E,         I,        O)
+          &kp A,   WHRML(R,         S,         T,         G)        WHRMR(M,        N,         E,         I)     &kp O
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  D       │  V       │   │  K       │  H       │ , <      │ . >      │ /        │
             &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
